@@ -8,9 +8,19 @@ output: html_notebook
 ```{r}
 df_mlwic %>% glimpse()
 ```
+```{r}
+df_mlwic %>% 
+  distinct(species_name) %>%
+  arrange(species_name)
+```
 
 # Wildlife Insights
 
 ```{r}
 df_wi %>% glimpse()
+```
+```{r}
+df_wi %>% 
+  distinct(common_name) %>%
+  arrange(common_name)
 ```
