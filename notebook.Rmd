@@ -8,6 +8,8 @@ output: html_notebook
 ```{r}
 df_mlwic %>% glimpse()
 ```
+<br />
+Distinct `species_name`
 ```{r}
 df_mlwic %>% 
   distinct(species_name) %>%
@@ -19,6 +21,8 @@ df_mlwic %>%
 ```{r}
 df_wi %>% glimpse()
 ```
+<br />
+Distinct `common_name`
 ```{r}
 df_wi %>% 
   distinct(common_name) %>%
